@@ -6,4 +6,4 @@ This is the my newly updated portolio. Please note that the projects section is 
 
 ## Live Site
 
-ikennanwajagu.dev
+https://ikennanwajagu.dev/
