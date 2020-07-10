@@ -55,6 +55,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
+      background: url("https://avatars0.githubusercontent.com/u/59304853?s=250&u=10f59fdf36c4c644156adcd2e17ba82d05d2c644&v=4");
       border-radius: 50%;
       border: solid 3px #ff3300; }
   .menu .nav-item {
@@ -269,6 +270,7 @@ b {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
+      background: url("https://avatars0.githubusercontent.com/u/59304853?s=150&u=10f59fdf36c4c644156adcd2e17ba82d05d2c644&v=4");
       width: 150px;
       height: 150px; }
   .about-info {
