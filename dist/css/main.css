@@ -232,6 +232,12 @@ main {
 b {
   color: #ff3300; }
 
+section {
+  background-color: white;
+  color: black;
+  padding: 8px;
+  margin-bottom: 4px; }
+
 #main-footer {
   text-align: center;
   padding: 1rem;
