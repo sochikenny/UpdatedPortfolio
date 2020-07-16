@@ -73,8 +73,17 @@
   main#home h1 {
     margin-top: 10vh;
   }
-
+  
+  main#home span {
+    grid-template-columns: 1fr; 
+  }
   .projects {
     grid-template-columns: 1fr;
+  }
+
+  main#contact {
+    margin: auto;
+    grid-template-columns: 1fr;
+    display: grid;
   }
 }
