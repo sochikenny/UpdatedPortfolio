@@ -117,12 +117,12 @@ body {
 h1,
 h2,
 h3 {
-  margin: 0;
+  margin: 0px;
   font-weight: 400; }
   h1.lg-heading,
   h2.lg-heading,
   h3.lg-heading {
-    font-size: 6rem; }
+    font-size: 5rem; }
   h1.sm-heading,
   h2.sm-heading,
   h3.sm-heading {
@@ -160,7 +160,7 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: "bioimage bio bio" "job1 job2 job3";
+  grid-template-areas: "bioimage bio bio";
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
@@ -170,16 +170,6 @@ main {
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
-  .about-info .job-1 {
-    grid-area: job1; }
-  .about-info .job-2 {
-    grid-area: job2; }
-  .about-info .job-3 {
-    grid-area: job3; }
-  .about-info .job {
-    background: #515151;
-    padding: 0.5rem;
-    border-bottom: #ff3300 5px solid; }
 
 .projects {
   display: grid;
@@ -288,5 +278,11 @@ section {
 @media screen and (max-width: 500px) {
   main#home h1 {
     margin-top: 10vh; }
+  main#home span {
+    grid-template-columns: 1fr; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  main#contact {
+    margin: auto;
+    grid-template-columns: 1fr;
+    display: grid; } }
