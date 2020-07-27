@@ -55,12 +55,11 @@
   .about-info {
     grid-template-areas:
       "bioimage"
-      "bio"
-      "job1"
-      "job2"
-      "job3";
+      "bio";
 
     grid-template-columns: 1fr;
+    margin: auto;
+    display: grid;
   }
 
   .projects {
