@@ -13,6 +13,6 @@ Check it out <a href="https://ikennanwajagu.dev/"> HERE </a>
 ### Technogies Used
 
 - HTML
-- SASS/CSS
+- Sass/CSS
 - JavaScript
 - Github Pages (Deployment)
